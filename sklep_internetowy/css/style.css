@@ -1,0 +1,112 @@
+.messages {
+	border-radius: 0.2em;
+	padding: 0.5em;
+	font-style: bold;
+	text-align: center;
+}
+
+.error {
+	background-color: #faa;
+}
+
+.info {
+	background-color: #afa;
+}
+
+.bottom-margin {
+	margin-bottom: 1em;
+}
+
+.top-margin {
+	margin-top: 1em;
+}
+
+.bg-white-80 {
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.bg-light-50 {
+	background-color: rgba(255, 255, 255, .7);
+}
+
+.bg-gray-10 {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.mouseon {
+	transition: all .3s;
+}
+
+.mouseon-active,
+.mouseon:hover {
+	background-color: #bee5eb;
+	color: #0c5460;
+	text-decoration: none;
+}
+
+.product-img {
+	display: block;
+	max-height: 130px;
+	object-fit: cover;
+}
+
+.product-img2 {
+	height: 300px;
+	width: 100%;
+	object-fit: contain;
+}
+
+.img-size {
+	transition: transform .3s ease;
+}
+
+.img-size:hover {
+	transform: scale(1.2) rotate(-1deg);
+	position: relative;
+	z-index: 1;
+}
+
+.product-size {
+	height: 150px;
+	transition: transform .1s ease;
+}
+
+.product-size:hover {
+	transform: scale(1.02);
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	position: relative;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #778899;
+}
